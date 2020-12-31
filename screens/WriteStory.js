@@ -9,7 +9,7 @@ export default class WriteStory extends React.Component {
         <Header
           centerComponent={{ text: 'Story Hub', style: { color: '#fff'  }  }}
         />
-        <TextInput style={styles.titleInput} placeholder='Enter your story title' />      
+        <TextInput style={styles.titleInput} placeholder='Enter your story title' />
         <TextInput style={styles.authorInput} placeholder='Enter the author name' />
         <TextInput style={styles.storyInput} placeholder='Write your story here' multiline />
       </View>
